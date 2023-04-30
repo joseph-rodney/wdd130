@@ -1,0 +1,21 @@
+ /* intial css file */
+
+ @font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+    font-weight: bold;
+  }
+
+  body{
+    font-family: Poppins;
+    text-align: center;
+    margin: 100px;
+  }
+
+  img{
+    width: 500px;
+    height: 500px;
+    border: 10px solid #7B3F00;
+    border-radius: 50%;
+    
+  }
