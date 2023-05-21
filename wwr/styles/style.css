@@ -3,8 +3,10 @@
 
 body{
     font-family: 'Poppins', 'Nunito', 'Roboto', sans-serif;
-    font-size: 22px;
     background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -23,6 +25,8 @@ nav a:hover{
 .home-title{
     color: black;
     font-family: 'Nunito', 'Poppins', 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color:black;
@@ -32,6 +36,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -47,6 +52,10 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
 }
@@ -55,6 +64,10 @@ main section{
     background-color: #1b4079;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -67,6 +80,10 @@ main section{
     background-color: #1b4079;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
@@ -82,17 +99,27 @@ main section{
 .msg{
     background-color: #7fb069;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 
 .msg h2{
     color: white;
     font-family: 'Nunito', 'Poppins', 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: rgba(27, 64, 121, 0.9);
-    color: white
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -105,10 +132,35 @@ footer a:hover{
     color: #1d1a05;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 #hero-img{
     width: 100%;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+#logo-link{
+    padding-top: 5px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black;
 }
