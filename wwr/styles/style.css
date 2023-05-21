@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Poppins', 'Nunito', 'Roboto', sans-serif;
+    font-size: 22px;
     background-color: #fcfbfb;
 }
 
@@ -21,6 +22,7 @@ nav a:hover{
 }
 .home-title{
     color: black;
+    font-family: 'Nunito', 'Poppins', 'Roboto', sans-serif;
 }
 h4{
     color:black;
@@ -34,6 +36,7 @@ nav a {
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: 'Roboto', 'Poppins', 'Nunito', sans-serif;
 }
 
 .button-box{
@@ -83,7 +86,8 @@ main section{
 }
 
 .msg h2{
-    color: white
+    color: white;
+    font-family: 'Nunito', 'Poppins', 'Roboto', sans-serif;
 }
 
 footer{
