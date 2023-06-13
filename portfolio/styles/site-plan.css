@@ -178,3 +178,21 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.home-img{
+  width: 600px;
+  height: 100%;
+  border: 10px solid var(--accent1-color);
+}
+
+.about-img{
+  width: 600px;
+  height: 100%;
+  border: 10px solid var(--accent1-color);
+}
+
+.contact-img{
+  width: 600px;
+  height: 100%;
+  border: 10px solid var(--accent1-color);
+}
