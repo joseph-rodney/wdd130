@@ -237,6 +237,91 @@ footer .social img{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* Rivers Page */
+.river-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+/* RIVER DETAILS ONE */
+
+.river-details-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.river-details-one .river-img{
+   margin-top: 20px;
+}
+
+.river-details-one .river-text{
+    background-color: #fffbbd;
+    font-size: 18px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+
+/* RIVER DETAILS TWO */
+
+.river-details-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.river-details-two .river-img{
+    margin-top: 20px;
+ }
+ 
+ .river-details-two .river-text{
+     background-color: #fffbbd;
+     font-size: 18px;
+     padding: 20px;
+     transition: 0.5s;
+ }
+
+/* RIVER DETAILS THREE */
+
+.river-details-three{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+.river-details-three .river-img{
+    margin-top: 20px;
+ }
+ 
+ .river-details-three .river-text{
+     background-color: #fffbbd;
+     font-size: 18px;
+     padding: 20px;
+     transition: 0.5s;
+ }
+
+/* RIVER BUTTON */
+
+.river-button{
+    border: 1px solid #1b4079;
+    background-color: #1b4079;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.river-button:hover{
+    background-color: #fffbbd;
+    color: #1b4079;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
