@@ -196,3 +196,8 @@ nav a:hover {
   height: 100%;
   border: 10px solid var(--accent1-color);
 }
+
+.wireframe-img{
+  width: 50%;
+  height: 50%;
+}
