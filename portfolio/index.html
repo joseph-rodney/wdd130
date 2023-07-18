@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- link to the css -->
+    <link rel="stylesheet" href="styles/main-site.css">
+    <!-- liunk to page icon -->
+    <link rel="shortcut icon" href="images/logo_white.png" type="image/x-icon">
+    <title>Home</title>
 </head>
 <body>
-    <!-- Navigation area -->
+    <div id="content">
+        <!-- Navigation area -->
     <header class="navbar">
         <!-- Logo -->
         <a href="index.html" class="logo_link">
@@ -19,14 +25,14 @@
             <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
-    <!-- Heor Section -->
-    <div class="hero">
+    <!-- Hero Section -->
+    <div id="hero">
         <!-- Background image -->
-        <div class="hero-box">
-            <img src="images/homepage/home1.jpg" alt="LAPTOP AND COFEE">
+        <div id="hero-box">
+            <img src="images/homepage/home1.jpg" alt="LAPTOP AND COFEE" id="hero-img">
         </div>
         <!-- Hero Content -->
-        <div class="hero-content">
+        <div id="hero-content">
             <h1 class="home-title">Heading One</h1>
             <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error labore commodi similique?</h4>
         </div>
@@ -62,5 +68,6 @@
         <p><a href="site-plan.html">Site Plan</a></p>
     </footer>
 
+    </div>
 </body>
 </html>
