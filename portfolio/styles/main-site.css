@@ -152,6 +152,7 @@ nav a:hover{
 /* CONTACT US PAGE */
 /* ----------------- */
 .form-container {
+    font-family: 'Poppins', 'Nunito', 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
@@ -191,6 +192,7 @@ nav a:hover{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-left: 100px;
   }
   
   .icon {
