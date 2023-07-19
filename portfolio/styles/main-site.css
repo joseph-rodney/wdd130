@@ -205,6 +205,7 @@ nav a:hover{
 
 /* Projects */
 .grid-container {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -226,15 +227,11 @@ nav a:hover{
   }
 
 /* Timeline */
-body {
-    font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif; 
-    font-size: 16px;
-    line-height: 1.75;
-  }
   
   #timeline {
+    margin-top: 50px;
     display: flex;
-    background-color: #031625;
+    background-color:   #7209b7;
   
     &:hover {
       .tl-item {
@@ -262,7 +259,7 @@ body {
     }
   
     &:after {
-      background: transparentize(#031625, 0.15);
+      background: transparentize(#b5179e, 0.15);
       opacity: 1;
       transition: opacity 0.5s ease;
     }
