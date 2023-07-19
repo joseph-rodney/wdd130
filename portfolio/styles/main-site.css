@@ -109,6 +109,10 @@ nav a:hover{
     max-height: 500px;
   }
 
+  .first-text{
+    padding: 100px;
+  }
+
 /* Second Section */
 .second-section{
     display: grid;
@@ -129,6 +133,10 @@ nav a:hover{
     max-height: 500px;
 }
 
+.second-text{
+  padding: 100px;
+}
+
 /* Third Section */
 .third-section{
     display: grid;
@@ -143,9 +151,13 @@ nav a:hover{
 
 .third-section img{
     grid-column: 2;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     max-height: 500px;
+}
+
+.third-text{
+  padding: 50px;
 }
 
 
